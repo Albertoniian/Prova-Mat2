@@ -23,15 +23,16 @@ header {
 /* Layout da página */
 .container {
     display: flex;
-    height: 100vh; /* Subtraímos a altura do cabeçalho e rodapé */
+    height: 100%; /* Subtraímos a altura do cabeçalho e rodapé */
 }
 
 /* Faixa lateral esquerda */
 .sidebar {
+    height: 100vh; 
     background-color: #7D00DD;
     width: 100px;
     padding: 20px;
-    height: 100vh;
+  
 }
 
 .sidebar ul {
