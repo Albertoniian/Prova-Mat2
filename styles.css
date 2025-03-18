@@ -6,8 +6,8 @@ body {
     display: flex;
 }
 .sidebar {
-    width: 200px;
-    background-color: purple;
+    width: 100px;
+    background-color: 7D00DD;
     height: 100vh;
     position: fixed;
     left: 0;
@@ -15,7 +15,7 @@ body {
     padding: 20px;
 }
 header {
-    background-color: purple;
+    background-color: 7D00DD;
     color: white;
     padding: 20px;
     text-align: center;
@@ -45,7 +45,7 @@ nav ul li a {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: purple;
+    background-color: 7D00DD;
     position: fixed;
     bottom: 0;
     left: 200px;
