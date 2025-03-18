@@ -23,7 +23,7 @@ header {
 /* Layout da página */
 .container {
     display: flex;
-    height: calc(100vh - 120px); /* Subtraímos a altura do cabeçalho e rodapé */
+    height: 100%; /* Subtraímos a altura do cabeçalho e rodapé */
 }
 
 /* Faixa lateral esquerda */
