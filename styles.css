@@ -17,7 +17,7 @@
 header {
     background-color: #7D00DD;
     color: FFFFFF;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -44,7 +44,7 @@ nav ul li a {
 }
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #7D00DD;
     position: fixed;
     bottom: 0;
