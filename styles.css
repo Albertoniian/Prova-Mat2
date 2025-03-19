@@ -28,7 +28,7 @@ header {
 d
 /* Faixa lateral esquerda */
 .sidebar {
-    height: 100%; 
+    height: 100vh; 
     background-color: #7D00DD;
     width: 100px;
     padding: 20px;
