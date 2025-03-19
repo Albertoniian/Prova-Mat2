@@ -25,7 +25,7 @@ header {
     display: flex;
     height: 100%; /* Subtraímos a altura do cabeçalho e rodapé */
 }
-
+d
 /* Faixa lateral esquerda */
 .sidebar {
     height: 100%; 
@@ -62,5 +62,6 @@ footer {
     left:10px; 
     text-align: center;
     padding: 20px;
+    Heigth: 100px;
 }
 
