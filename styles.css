@@ -52,7 +52,7 @@ header {
     display: flex; /* Usar flexbox para centralizar o texto */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    width: 20%; /* Largura total do botão */
+    width: 115%; /* Largura total do botão */
     height: 75px; /* Altura fixa para todos os botões */
     background-color: #000000; /* Cor de fundo do botão */
     border-radius: 5px; /* Bordas arredondadas */
