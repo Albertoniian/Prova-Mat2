@@ -34,7 +34,7 @@ header {
     background-color: #7D00DD;
     width: 100px;
     padding: 20px;
-    height: 0; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
