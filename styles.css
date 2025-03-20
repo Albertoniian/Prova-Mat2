@@ -34,8 +34,7 @@ header {
     background-color: #7D00DD;
     width: 100px;
     padding: 20px;
-     /* Garante que a barra lateral ocupe toda a altura da página */
-   min-height: 100vh;
+    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
@@ -50,6 +49,15 @@ header {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
+    display: inline-block; /* Permite que o link se comporte como um bloco */
+    padding: 10px 15px; /* Adiciona preenchimento ao botão */
+    background-color: #5A00A1; /* Cor de fundo do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.sidebar a:hover {
+    background-color: #9B00E6; /* Cor de fundo ao passar o mouse */
 }
 
 /* Estilo do conteúdo principal */
@@ -69,4 +77,3 @@ footer {
     left: 0;
     right: 0; /* Garante que o rodapé ocupe toda a largura da página */
 }
-
