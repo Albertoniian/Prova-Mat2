@@ -32,7 +32,7 @@ header {
 /* Faixa lateral esquerda */
 .sidebar {
     background-color: #7D00DD;
-    width: 100px;
+    width: 150px;
     padding: 20px;
     height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
 }
