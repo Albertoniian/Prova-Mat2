@@ -35,6 +35,7 @@ header {
     width: 100px;
     padding: 20px;
     height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
+    Position:fixed;
 }
 
 .sidebar ul {
