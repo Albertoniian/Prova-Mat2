@@ -53,7 +53,7 @@ header {
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     width: 115px; /* Largura total do botão */
-    height: 50px; /* Altura fixa para todos os botões */
+    height: 75px; /* Altura fixa para todos os botões */
     background-color: #000000; /* Cor de fundo do botão */
     border-radius: 5px; /* Bordas arredondadas */
     transition: background-color 0.3s; /* Transição suave para a cor de fundo */
