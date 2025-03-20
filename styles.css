@@ -34,8 +34,8 @@ header {
     background-color: #7D00DD;
     width: 100px;
     padding: 20px;
-    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
-    Position:fixed;
+     /* Garante que a barra lateral ocupe toda a altura da página */
+   min-height: 100vh;
 }
 
 .sidebar ul {
