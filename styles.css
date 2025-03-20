@@ -32,7 +32,7 @@ header {
 /* Faixa lateral esquerda */
 .sidebar {
     background-color: #7D00DD;
-    width: 150px;
+    width: 125px;
     padding: 20px;
     height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
 }
@@ -51,13 +51,13 @@ header {
     font-size: 18px;
     display: inline-block; /* Permite que o link se comporte como um bloco */
     padding: 10px 15px; /* Adiciona preenchimento ao botão */
-    background-color: #5A00A1; /* Cor de fundo do botão */
+    background-color: #000000; /* Cor de fundo do botão */
     border-radius: 5px; /* Bordas arredondadas */
     transition: background-color 0.3s; /* Transição suave para a cor de fundo */
 }
 
 .sidebar a:hover {
-    background-color: #9B00E6; /* Cor de fundo ao passar o mouse */
+    background-color: #545454; /* Cor de fundo ao passar o mouse */
 }
 
 /* Estilo do conteúdo principal */
