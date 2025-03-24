@@ -31,6 +31,7 @@ header {
 
 /* Faixa lateral esquerda */
 .sidebar {
+    position: fixed;
     background-color: #7D00DD;
     width: 130px;
     padding: 20px;
