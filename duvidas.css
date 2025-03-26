@@ -34,7 +34,7 @@ header {
     background-color: #7D00DD;
     width: 130px;
     padding: 20px;
-    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
@@ -69,6 +69,45 @@ header {
     padding: 20px;
 }
 
+/* Estilo do formulário */
+form {
+    background-color: #333333; /* Cor de fundo do formulário */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    background-color: #444444; /* Cor de fundo dos campos */
+    color: #FFFFFF; /* Cor do texto nos campos */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7D00DD; /* Cor do botão */
+    color: #FFFFFF; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #5a00a3; /* Cor do botão ao passar o mouse */
+}
+
 /* Rodapé */
 footer {
     background-color: #7D00DD;
@@ -79,10 +118,4 @@ footer {
     bottom: 0; /* Posiciona o rodapé na parte inferior da página */
     left: 0;
     right: 0; /* Garante que o rodapé ocupe toda a largura da página */
-}
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10
 }
