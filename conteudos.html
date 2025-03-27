@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova/Mat2</title>
-     <link rel="stylesheet" href="conteudos.css">
+    <link rel="stylesheet" href="conteudos.css">
 </head>
 <body>
 
     <header>
-        <h1>Conteudo</h1>
+        <h1>Resumo</h1>
     </header>
 
     <div class="container">
@@ -25,64 +25,69 @@
         </nav>
 
         <main class="content">
-    
-            <h2>Fatorial</h2>
-            <p>Fatorial é um número natural inteiro positivo, o qual é representado por n!</p>
-            <p>O fatorial de um número é calculado pela multiplicação desse número por todos os seus antecessores até chegar ao número 1. Note que nesses produtos, o zero (0) é excluído.</p>
-            <p>O fatorial é representado por:</p>
-            <p><strong>n! = n . (n – 1) . (n – 2) . ... . (n – (n-1))!</strong></p>
+            <h2>Conteúdos de Análise Combinatória</h2>
+            
+            <section id="fatorial">
+                <h3>Fatorial</h3>
+                <p>O fatorial de um número natural n, denotado por n!, é o produto de todos os números naturais de 1 até n.</p>
+                <p>Matematicamente, podemos definir o fatorial da seguinte forma:</p>
+                <p>n! = n × (n - 1) × (n - 2) × ... × 2 × 1, com a convenção de que 0! = 1.</p>
+                <p>Exemplo prático: 5! = 5 × 4 × 3 × 2 × 1 = 120.</p>
+            </section>
 
-            <h3>Exemplos de números fatoriais</h3>
-            <ul>
-                <li><strong>Fatorial de 0:</strong> 0! = 1</li>
-                <li><strong>Fatorial de 1:</strong> 1! = 1</li>
-                <li><strong>Fatorial de 2:</strong> 2! = 2 . 1 = 2</li>
-                <li><strong>Fatorial de 3:</strong> 3! = 3 . 2 . 1 = 6</li>
-                <li><strong>Fatorial de 4:</strong> 4! = 4 . 3 . 2 . 1 = 24</li>
-                <li><strong>Fatorial de 5:</strong> 5! = 5 . 4 . 3 . 2 . 1 = 120</li>
-                <li><strong>Fatorial de 6:</strong> 6! = 6 . 5 . 4 . 3 . 2 . 1 = 720</li>
-                <li><strong>Fatorial de 7:</strong> 7! = 7 . 6 . 5 . 4 . 3 . 2 . 1 = 5040</li>
-                <li><strong>Fatorial de 8:</strong> 8! = 8 . 7 . 6 . 5 . 4 . 3 . 2 . 1 = 40320</li>
-                <li><strong>Fatorial de 9:</strong> 9! = 9 . 8 . 7 . 6 . 5 . 4 . 3 . 2 . 1 = 362880</li>
-                <li><strong>Fatorial de 10:</strong> 10! = 10 . 9 . 8 . 7 . 6 . 5 . 4 . 3 . 2 . 1 = 3628800</li>
-            </ul>
+            <section id="combinacao">
+                <h3>Combinação Simples</h3>
+                <p>Em uma combinação simples, selecionamos elementos de um conjunto sem levar em conta a ordem.</p>
+                <p>A fórmula da combinação é:</p>
+                <p>C(n, p) = n! / [p!(n - p)!]</p>
+                <p>Onde:</p>
+                <ul>
+                    <li>n é o número total de elementos disponíveis.</li>
+                    <li>p é o número de elementos escolhidos.</li>
+                </ul>
+                <p>Exemplo: Se temos 5 pessoas e queremos formar um grupo de 3, usamos:</p>
+                <p>C(5,3) = 5! / [3!(5 - 3)!] = 10 combinações possíveis.</p>
+            </section>
 
-            <h3>Obs:</h3>
-            <p>O número fatorial também pode ser representado da seguinte maneira:</p>
-            <p>5! = 5 . 4! = 5 . 4 . 3! = 5 . 4 . 3 . 2!</p>
-            <p>Esse processo é muito importante quando se utiliza a simplificação de números fatoriais.</p>
+            <section id="arranjo">
+                <h3>Arranjo Simples</h3>
+                <p>O arranjo simples considera a ordem dos elementos na formação dos agrupamentos.</p>
+                <p>Sua fórmula é:</p>
+                <p>A(n, p) = n! / (n - p)!</p>
+                <p>Onde:</p>
+                <ul>
+                    <li>n é o número total de elementos disponíveis.</li>
+                    <li>p é o número de elementos escolhidos.</li>
+                </ul>
+                <p>Exemplo: Escolher um presidente e um vice de um grupo de 5 pessoas:</p>
+                <p>A(5,2) = 5! / (5 - 2)! = 20 formas diferentes.</p>
+            </section>
 
-            <h3>Fatorial e Análise Combinatória</h3>
-            <p>Os números fatoriais estão intimamente relacionados com os tipos de análise combinatória. Isso porque ambos envolvem a multiplicação de números naturais consecutivos.</p>
+            <section id="permutacao">
+                <h3>Permutação</h3>
+                <p>A permutação ocorre quando utilizamos todos os elementos disponíveis e a ordem importa.</p>
+                <p>A fórmula geral é:</p>
+                <p>P(n) = n!</p>
+                <p>Se tivermos repetições, usamos a fórmula:</p>
+                <p>P(n) = n! / (n1! × n2! × ... × nk!)</p>
+                <p>Onde n1, n2, ..., nk são os números de repetições dos elementos.</p>
+                <p>Exemplo: Organizar as letras da palavra "MAMA":</p>
+                <p>P(4) = 4! / 2! = 12 formas.</p>
+            </section>
 
-            <h4>Arranjos</h4>
-            <p><strong>A<sub>n,p</sub> = n! / (n - p)!</strong></p>
-
-            <h4>Combinações</h4>
-            <p><strong>C<sub>n,p</sub> = n! / (p! (n - p)!)</strong></p>
-
-            <h4>Permutações</h4>
-            <p>Fatorial</p>
-
-            <h3>Operações com Fatoriais</h3>
-            <ul>
-                <li><strong>Adição:</strong> 3! + 2! = 6 + 2 = 8</li>
-                <li><strong>Subtração:</strong> 5! - 3! = 120 - 6 = 114</li>
-                <li><strong>Multiplicação:</strong> 0! . 6! = 1 . 720 = 720</li>
-                <li><strong>Divisão:</strong> Fatorial</li>
-            </ul>
-
-            <h3>Simplificação de Fatorial</h3>
-            <p>Na divisão de números fatoriais o processo de simplificação é um dos mais importantes.</p>
-
-            <h3>Análise Fatorial</h3>
-            <p>A análise fatorial é um método utilizado nos estudos de estatísticas por meio da criação de variáveis. No campo da psicologia, ela também é explorada no desenvolvimento de instrumentos psicológicos.</p>
+            <section id="principio-fundamental">
+                <h3>Princípio Fundamental da Contagem</h3>
+                <p>Se um evento pode ocorrer de m maneiras e outro evento de n maneiras, o número total de formas de ocorrência conjunta é dado por m × n.</p>
+                <p>Exemplo prático: Se temos 3 modelos de camisa e 2 tipos de calça, as combinações possíveis são:</p>
+                <p>3 × 2 = 6 combinações.</p>
+            </section>
         </main>
     </div>
 
     <footer>
-        <p>&copy; 2025 Seu Site. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Fatorial. Todos os direitos reservados.</p>
     </footer>
 
 </body>
 </html>
+
