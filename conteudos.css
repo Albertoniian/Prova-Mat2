@@ -34,7 +34,7 @@ header {
     background-color: #7D00DD;
     width: 130px;
     padding: 20px;
-    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
@@ -79,4 +79,17 @@ footer {
     bottom: 0; /* Posiciona o rodapé na parte inferior da página */
     left: 0;
     right: 0; /* Garante que o rodapé ocupe toda a largura da página */
+}
+
+/* Estilo adicional para títulos e listas */
+h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px; /* Adiciona um recuo à lista */
+}
+
+li {
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
 }
