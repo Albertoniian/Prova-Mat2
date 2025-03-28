@@ -34,7 +34,7 @@ header {
     background-color: #7D00DD; /* Cor roxa */
     width: 130px;
     padding: 20px;
-    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
@@ -75,8 +75,25 @@ header {
     border-radius: 5px; /* Cantos arredondados */
     padding: 15px; /* Espaçamento interno */
     margin: 15px 0; /* Margem superior e inferior */
-    background-color: #7D00DD; /* Cor de fundo das caixas */
-    
+    background-color: #7D00Dd; /* Cor de fundo das caixas */
+}
+
+/* Estilo dos cabeçalhos das seções */
+h3 {
+    font-size: 24px; /* Aumenta o tamanho dos cabeçalhos */
+    margin-bottom: 10px; /* Espaço abaixo do cabeçalho */
+}
+
+/* Estilo dos parágrafos */
+p {
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    margin-bottom: 15px; /* Espaço entre parágrafos */
+}
+
+/* Estilo dos números (dígitos) */
+strong {
+    font-size: 20px; /* Aumenta o tamanho dos dígitos */
+    color: #FFD700; /* Cor dourada para destacar os dígitos */
 }
 
 /* Rodapé */
