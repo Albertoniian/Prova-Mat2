@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova/Mat2</title>
     <link rel="stylesheet" href="conteudos.css">
+    <style>
+        .content-box {
+            border: 1px solid #ccc; /* Borda da caixa */
+            border-radius: 5px; /* Cantos arredondados */
+            padding: 15px; /* Espaçamento interno */
+            margin: 15px 0; /* Margem superior e inferior */
+            background-color: #f9f9f9; /* Cor de fundo */
+        }
+    </style>
 </head>
 <body>
 
@@ -27,15 +36,15 @@
         <main class="content">
             <h2>Conteúdos de Análise Combinatória</h2>
             
-            <section id="fatorial">
+            <div class="content-box" id="fatorial">
                 <h3>Fatorial</h3>
                 <p>O fatorial de um número natural n, denotado por n!, é o produto de todos os números naturais de 1 até n.</p>
                 <p>Matematicamente, podemos definir o fatorial da seguinte forma:</p>
                 <p>n! = n × (n - 1) × (n - 2) × ... × 2 × 1, com a convenção de que 0! = 1.</p>
                 <p>Exemplo prático: 5! = 5 × 4 × 3 × 2 × 1 = 120.</p>
-            </section>
+            </div>
 
-            <section id="combinacao">
+            <div class="content-box" id="combinacao">
                 <h3>Combinação Simples</h3>
                 <p>Em uma combinação simples, selecionamos elementos de um conjunto sem levar em conta a ordem.</p>
                 <p>A fórmula da combinação é:</p>
@@ -47,9 +56,9 @@
                 </ul>
                 <p>Exemplo: Se temos 5 pessoas e queremos formar um grupo de 3, usamos:</p>
                 <p>C(5,3) = 5! / [3!(5 - 3)!] = 10 combinações possíveis.</p>
-            </section>
+            </div>
 
-            <section id="arranjo">
+            <div class="content-box" id="arranjo">
                 <h3>Arranjo Simples</h3>
                 <p>O arranjo simples considera a ordem dos elementos na formação dos agrupamentos.</p>
                 <p>Sua fórmula é:</p>
@@ -61,9 +70,9 @@
                 </ul>
                 <p>Exemplo: Escolher um presidente e um vice de um grupo de 5 pessoas:</p>
                 <p>A(5,2) = 5! / (5 - 2)! = 20 formas diferentes.</p>
-            </section>
+            </div>
 
-            <section id="permutacao">
+            <div class="content-box" id="permutacao">
                 <h3>Permutação</h3>
                 <p>A permutação ocorre quando utilizamos todos os elementos disponíveis e a ordem importa.</p>
                 <p>A fórmula geral é:</p>
@@ -73,14 +82,14 @@
                 <p>Onde n1, n2, ..., nk são os números de repetições dos elementos.</p>
                 <p>Exemplo: Organizar as letras da palavra "MAMA":</p>
                 <p>P(4) = 4! / 2! = 12 formas.</p>
-            </section>
+            </div>
 
-            <section id="principio-fundamental">
+            <div class="content-box" id="principio-fundamental">
                 <h3>Princípio Fundamental da Contagem</h3>
                 <p>Se um evento pode ocorrer de m maneiras e outro evento de n maneiras, o número total de formas de ocorrência conjunta é dado por m × n.</p>
                 <p>Exemplo prático: Se temos 3 modelos de camisa e 2 tipos de calça, as combinações possíveis são:</p>
                 <p>3 × 2 = 6 combinações.</p>
-            </section>
+            </div>
         </main>
     </div>
 
