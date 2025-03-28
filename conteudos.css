@@ -7,8 +7,8 @@
 
 /* Cor de fundo principal */
 body {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,8 +17,8 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #7D00DD;
-    color: #FFFFFF;
+    background-color: #7D00DD; /* Cor roxa */
+    color: #FFFFFF; /* Texto branco */
     padding: 20px;
     text-align: center;
 }
@@ -31,10 +31,10 @@ header {
 
 /* Faixa lateral esquerda */
 .sidebar {
-    background-color: #7D00DD;
+    background-color: #7D00DD; /* Cor roxa */
     width: 130px;
     padding: 20px;
-    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
@@ -47,7 +47,7 @@ header {
 
 .sidebar a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FFFFFF; /* Texto branco */
     font-size: 18px;
     display: flex; /* Usar flexbox para centralizar o texto */
     justify-content: center; /* Centraliza horizontalmente */
@@ -69,10 +69,19 @@ header {
     padding: 20px;
 }
 
+/* Estilo das caixas de conteúdo */
+.content-box {
+    border: 1px solid #ccc; /* Borda da caixa */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 15px; /* Espaçamento interno */
+    margin: 15px 0; /* Margem superior e inferior */
+    background-color: #f9f9f9; /* Cor de fundo das caixas */
+}
+
 /* Rodapé */
 footer {
-    background-color: #7D00DD;
-    color: #FFFFFF;
+    background-color: #7D00DD; /* Cor roxa */
+    color: #FFFFFF; /* Texto branco */
     text-align: center;
     padding: 20px;
     position: relative; /* Fixa o rodapé na parte inferior */
