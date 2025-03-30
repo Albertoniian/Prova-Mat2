@@ -34,7 +34,7 @@ header {
     background-color: #7D00DD; /* Cor roxa */
     width: 130px;
     padding: 20px;
-    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
@@ -76,6 +76,14 @@ header {
     padding: 15px; /* Espaçamento interno */
     margin: 15px 0; /* Margem superior e inferior */
     background-color:  #333333; /* Cor de fundo das caixas */
+}
+
+/* Estilo para centralizar imagens */
+.content-box img {
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 /* Estilo dos cabeçalhos das seções */
